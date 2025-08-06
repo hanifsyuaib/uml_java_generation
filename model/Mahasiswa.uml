@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_LvQycHDmEfCL_Ymxkr6g0g" name="Mahasiswa">
+  <packageImport xmi:id="_L0q24HDmEfCL_Ymxkr6g0g">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_br0q4HDoEfCL_Ymxkr6g0g" name="MataKuliah">
+    <ownedAttribute xmi:id="_44Hk8HDzEfCL_Ymxkr6g0g" name="kode" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_-p8ZoHDzEfCL_Ymxkr6g0g" name="nama" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MuNloHD0EfCL_Ymxkr6g0g" name="sks" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_ySNrIXD3EfCL_Ymxkr6g0g" name="mahasiswa" type="_27U3MHDqEfCL_Ymxkr6g0g">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ySNrInD3EfCL_Ymxkr6g0g" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ySNrI3D3EfCL_Ymxkr6g0g" value="*"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_VgG5EHD0EfCL_Ymxkr6g0g" name="getInfo">
+      <ownedParameter xmi:id="_getInfo_return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_27U3MHDqEfCL_Ymxkr6g0g" name="Mahasiswa" visibility="package">
+    <ownedAttribute xmi:id="_Nr2osHDrEfCL_Ymxkr6g0g" name="nama" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_9TgEwHDrEfCL_Ymxkr6g0g" name="tanggalLahir" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_METAMODELS/Ecore.metamodel.uml#EDate"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_b2mlQHDtEfCL_Ymxkr6g0g" name="npm" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_ekegwHDtEfCL_Ymxkr6g0g" name="email" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_g0rBwHDtEfCL_Ymxkr6g0g" name="fakultas" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_kXsckHDtEfCL_Ymxkr6g0g" name="jurusan" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_D_OD8HDuEfCL_Ymxkr6g0g" name="ipk" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_METAMODELS/Ecore.metamodel.uml#EFloat"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_hUQ8QnD3EfCL_Ymxkr6g0g" name="matakuliah" type="_br0q4HDoEfCL_Ymxkr6g0g" association="_hUQVMHD3EfCL_Ymxkr6g0g">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hUQ8Q3D3EfCL_Ymxkr6g0g" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hUQ8RHD3EfCL_Ymxkr6g0g" value="*"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="__cN9YHDuEfCL_Ymxkr6g0g" name="enroll">
+      <ownedParameter xmi:id="_enroll_param" name="matakuliah">
+        <type xmi:type="uml:Class" href="#_br0q4HDoEfCL_Ymxkr6g0g"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_I99HcHDxEfCL_Ymxkr6g0g" name="hitungIPK">
+      <ownedParameter xmi:id="_hitungIPK_return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_METAMODELS/Ecore.metamodel.uml#EFloat"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_qNzQIHD0EfCL_Ymxkr6g0g" name="ProgramStudi">
+    <ownedAttribute xmi:id="_wkS4IHD0EfCL_Ymxkr6g0g" name="nama" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_0t2ugHD0EfCL_Ymxkr6g0g" name="fakultas" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_4MLPgHD0EfCL_Ymxkr6g0g" name="daftarMahasiswa">
+      <ownedParameter xmi:id="_daftarMahasiswa_return" direction="return">
+        <type xmi:type="uml:Class" href="#_27U3MHDqEfCL_Ymxkr6g0g"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_daftarMahasiswa_upper" value="*"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_WTxDQHD3EfCL_Ymxkr6g0g" name="terdaftar di" memberEnd="_WTyRYnD3EfCL_Ymxkr6g0g _WTzfgHD3EfCL_Ymxkr6g0g">
+    <eAnnotations xmi:id="_WTyRYHD3EfCL_Ymxkr6g0g" source="org.eclipse.papyrus">
+      <details xmi:id="_WTyRYXD3EfCL_Ymxkr6g0g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_WTyRYnD3EfCL_Ymxkr6g0g" name="programstudi" type="_qNzQIHD0EfCL_Ymxkr6g0g" association="_WTxDQHD3EfCL_Ymxkr6g0g"/>
+    <ownedEnd xmi:id="_WTzfgHD3EfCL_Ymxkr6g0g" name="mahasiswa" type="_27U3MHDqEfCL_Ymxkr6g0g" association="_WTxDQHD3EfCL_Ymxkr6g0g">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tkTKgHD3EfCL_Ymxkr6g0g" name="LiteralUnlimitedNatural1" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_hUQVMHD3EfCL_Ymxkr6g0g" name="mengambil" memberEnd="_hUQ8QnD3EfCL_Ymxkr6g0g _hUQ8RXD3EfCL_Ymxkr6g0g">
+    <eAnnotations xmi:id="_hUQ8QHD3EfCL_Ymxkr6g0g" source="org.eclipse.papyrus">
+      <details xmi:id="_hUQ8QXD3EfCL_Ymxkr6g0g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:id="_hUQ8QnD3EfCL_Ymxkr6g0g" name="mahasiswa" type="_27U3MHDqEfCL_Ymxkr6g0g" association="_hUQVMHD3EfCL_Ymxkr6g0g">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tkTKgHD3EfCL_Ymxkr6g0g" name="LiteralUnlimitedNatural1" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_hUQ8RXD3EfCL_Ymxkr6g0g" name="matakuliah" type="_br0q4HDoEfCL_Ymxkr6g0g" association="_hUQVMHD3EfCL_Ymxkr6g0g">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tkTKgHD3EfCL_Ymxkr6g0g" name="LiteralUnlimitedNatural1" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <profileApplication xmi:id="_8L2AgHDoEfCL_Ymxkr6g0g">
+    <eAnnotations xmi:id="_8L5D0HDoEfCL_Ymxkr6g0g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>

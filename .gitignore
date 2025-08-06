@@ -1,0 +1,9 @@
+# Build output
+bin/
+
+# Acceleo compiled templates
+*.emtl
+
+# OS-specific junk
+.DS_Store
+Thumbs.db

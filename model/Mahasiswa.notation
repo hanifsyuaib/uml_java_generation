@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_LzjckHDmEfCL_Ymxkr6g0g" type="PapyrusUMLClassDiagram" name="Class Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_br15AHDoEfCL_Ymxkr6g0g" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_br2gEHDoEfCL_Ymxkr6g0g" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_br2gEXDoEfCL_Ymxkr6g0g" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_br2gEnDoEfCL_Ymxkr6g0g" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_br2gE3DoEfCL_Ymxkr6g0g" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_44KoQHDzEfCL_Ymxkr6g0g" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="Mahasiswa.uml#_44Hk8HDzEfCL_Ymxkr6g0g"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_44KoQXDzEfCL_Ymxkr6g0g"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_-qAEAHDzEfCL_Ymxkr6g0g" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="Mahasiswa.uml#_-p8ZoHDzEfCL_Ymxkr6g0g"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-qAEAXDzEfCL_Ymxkr6g0g"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_MuPa0HD0EfCL_Ymxkr6g0g" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="Mahasiswa.uml#_MuNloHD0EfCL_Ymxkr6g0g"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MuPa0XD0EfCL_Ymxkr6g0g"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_br2gFHDoEfCL_Ymxkr6g0g"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_br2gFXDoEfCL_Ymxkr6g0g"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_br2gFnDoEfCL_Ymxkr6g0g"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_br2gF3DoEfCL_Ymxkr6g0g"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_br2gGHDoEfCL_Ymxkr6g0g" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_VgJ8YHD0EfCL_Ymxkr6g0g" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Mahasiswa.uml#_VgG5EHD0EfCL_Ymxkr6g0g"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_VgJ8YXD0EfCL_Ymxkr6g0g"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_br2gGXDoEfCL_Ymxkr6g0g"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_br2gGnDoEfCL_Ymxkr6g0g"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_br2gG3DoEfCL_Ymxkr6g0g"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_br2gHHDoEfCL_Ymxkr6g0g"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_br2gHXDoEfCL_Ymxkr6g0g" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_br2gHnDoEfCL_Ymxkr6g0g"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_br2gH3DoEfCL_Ymxkr6g0g"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_br2gIHDoEfCL_Ymxkr6g0g"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_br2gIXDoEfCL_Ymxkr6g0g"/>
+    </children>
+    <element xmi:type="uml:Class" href="Mahasiswa.uml#_br0q4HDoEfCL_Ymxkr6g0g"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_br15AXDoEfCL_Ymxkr6g0g" x="440" y="80"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_27WsYHDqEfCL_Ymxkr6g0g" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_27WsYnDqEfCL_Ymxkr6g0g" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_27WsY3DqEfCL_Ymxkr6g0g" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_27XTcHDqEfCL_Ymxkr6g0g" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_27XTcXDqEfCL_Ymxkr6g0g" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_Nr9WYHDrEfCL_Ymxkr6g0g" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="Mahasiswa.uml#_Nr2osHDrEfCL_Ymxkr6g0g"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Nr9WYXDrEfCL_Ymxkr6g0g"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_9TnZgHDrEfCL_Ymxkr6g0g" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="Mahasiswa.uml#_9TgEwHDrEfCL_Ymxkr6g0g"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9TnZgXDrEfCL_Ymxkr6g0g"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_b2rdwHDtEfCL_Ymxkr6g0g" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="Mahasiswa.uml#_b2mlQHDtEfCL_Ymxkr6g0g"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_b2rdwXDtEfCL_Ymxkr6g0g"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_eknDoHDtEfCL_Ymxkr6g0g" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="Mahasiswa.uml#_ekegwHDtEfCL_Ymxkr6g0g"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_eknDoXDtEfCL_Ymxkr6g0g"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_g0whUHDtEfCL_Ymxkr6g0g" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="Mahasiswa.uml#_g0rBwHDtEfCL_Ymxkr6g0g"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_g0whUXDtEfCL_Ymxkr6g0g"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_kXyjMHDtEfCL_Ymxkr6g0g" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="Mahasiswa.uml#_kXsckHDtEfCL_Ymxkr6g0g"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_kXyjMXDtEfCL_Ymxkr6g0g"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_D_UKkHDuEfCL_Ymxkr6g0g" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="Mahasiswa.uml#_D_OD8HDuEfCL_Ymxkr6g0g"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_D_UKkXDuEfCL_Ymxkr6g0g"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_27XTcnDqEfCL_Ymxkr6g0g"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_27XTc3DqEfCL_Ymxkr6g0g"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_27XTdHDqEfCL_Ymxkr6g0g"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_27XTdXDqEfCL_Ymxkr6g0g"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_27XTdnDqEfCL_Ymxkr6g0g" type="Class_OperationCompartment">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_re3zQHDwEfCL_Ymxkr6g0g" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_re3zQXDwEfCL_Ymxkr6g0g" key="collapsed" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:Shape" xmi:id="__cXHUHDuEfCL_Ymxkr6g0g" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Mahasiswa.uml#__cN9YHDuEfCL_Ymxkr6g0g"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="__cXHUXDuEfCL_Ymxkr6g0g"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_I9-8oHDxEfCL_Ymxkr6g0g" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Mahasiswa.uml#_I99HcHDxEfCL_Ymxkr6g0g"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_I9-8oXDxEfCL_Ymxkr6g0g"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_27XTd3DqEfCL_Ymxkr6g0g"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_27XTeHDqEfCL_Ymxkr6g0g"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_27XTeXDqEfCL_Ymxkr6g0g"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_27XTenDqEfCL_Ymxkr6g0g"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_27XTe3DqEfCL_Ymxkr6g0g" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_27XTfHDqEfCL_Ymxkr6g0g"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_27XTfXDqEfCL_Ymxkr6g0g"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_27XTfnDqEfCL_Ymxkr6g0g"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_27XTf3DqEfCL_Ymxkr6g0g"/>
+    </children>
+    <element xmi:type="uml:Class" href="Mahasiswa.uml#_27U3MHDqEfCL_Ymxkr6g0g"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_27WsYXDqEfCL_Ymxkr6g0g" x="80" y="60" height="220"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_qN1FUHD0EfCL_Ymxkr6g0g" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_qN1sYHD0EfCL_Ymxkr6g0g" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_qN1sYXD0EfCL_Ymxkr6g0g" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_qN1sYnD0EfCL_Ymxkr6g0g" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_qN1sY3D0EfCL_Ymxkr6g0g" type="Class_AttributeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_wkYXsHD0EfCL_Ymxkr6g0g" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="Mahasiswa.uml#_wkS4IHD0EfCL_Ymxkr6g0g"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_wkYXsXD0EfCL_Ymxkr6g0g"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_0t81IHD0EfCL_Ymxkr6g0g" type="Property_ClassAttributeLabel">
+        <element xmi:type="uml:Property" href="Mahasiswa.uml#_0t2ugHD0EfCL_Ymxkr6g0g"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_0t81IXD0EfCL_Ymxkr6g0g"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_qN1sZHD0EfCL_Ymxkr6g0g"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_qN1sZXD0EfCL_Ymxkr6g0g"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_qN1sZnD0EfCL_Ymxkr6g0g"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qN1sZ3D0EfCL_Ymxkr6g0g"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_qN1saHD0EfCL_Ymxkr6g0g" type="Class_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_4MR9MHD0EfCL_Ymxkr6g0g" type="Operation_ClassOperationLabel">
+        <element xmi:type="uml:Operation" href="Mahasiswa.uml#_4MLPgHD0EfCL_Ymxkr6g0g"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_4MR9MXD0EfCL_Ymxkr6g0g"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_qN1saXD0EfCL_Ymxkr6g0g"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_qN1sanD0EfCL_Ymxkr6g0g"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_qN1sa3D0EfCL_Ymxkr6g0g"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qN1sbHD0EfCL_Ymxkr6g0g"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_qN1sbXD0EfCL_Ymxkr6g0g" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_qN1sbnD0EfCL_Ymxkr6g0g"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_qN1sb3D0EfCL_Ymxkr6g0g"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_qN1scHD0EfCL_Ymxkr6g0g"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qN1scXD0EfCL_Ymxkr6g0g"/>
+    </children>
+    <element xmi:type="uml:Class" href="Mahasiswa.uml#_qNzQIHD0EfCL_Ymxkr6g0g"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qN1FUXD0EfCL_Ymxkr6g0g" x="380" y="260"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_LzjckXDmEfCL_Ymxkr6g0g" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_LzjcknDmEfCL_Ymxkr6g0g"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_Lzjck3DmEfCL_Ymxkr6g0g" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
+    <owner xmi:type="uml:Model" href="Mahasiswa.uml#_LvQycHDmEfCL_Ymxkr6g0g"/>
+  </styles>
+  <element xmi:type="uml:Model" href="Mahasiswa.uml#_LvQycHDmEfCL_Ymxkr6g0g"/>
+  <edges xmi:type="notation:Connector" xmi:id="_WT-eoHD3EfCL_Ymxkr6g0g" type="Association_Edge" source="_27WsYHDqEfCL_Ymxkr6g0g" target="_qN1FUHD0EfCL_Ymxkr6g0g">
+    <children xmi:type="notation:DecorationNode" xmi:id="_WT_FsHD3EfCL_Ymxkr6g0g" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_WT_FsXD3EfCL_Ymxkr6g0g" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_WT_FsnD3EfCL_Ymxkr6g0g" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_WT_Fs3D3EfCL_Ymxkr6g0g" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_WT_FtHD3EfCL_Ymxkr6g0g" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_WT_FtXD3EfCL_Ymxkr6g0g" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_WT_FtnD3EfCL_Ymxkr6g0g" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_WT_Ft3D3EfCL_Ymxkr6g0g" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_WT_FuHD3EfCL_Ymxkr6g0g" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_WT_FuXD3EfCL_Ymxkr6g0g" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_WT_FunD3EfCL_Ymxkr6g0g" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_WT_Fu3D3EfCL_Ymxkr6g0g" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_WT-eoXD3EfCL_Ymxkr6g0g"/>
+    <element xmi:type="uml:Association" href="Mahasiswa.uml#_WTxDQHD3EfCL_Ymxkr6g0g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_WT-eonD3EfCL_Ymxkr6g0g" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_hUSxcHD3EfCL_Ymxkr6g0g" type="Association_Edge">
+    <children xmi:type="notation:DecorationNode" xmi:id="_hUSxc3D3EfCL_Ymxkr6g0g" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_hUSxdHD3EfCL_Ymxkr6g0g" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_hUSxdXD3EfCL_Ymxkr6g0g" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_hUSxdnD3EfCL_Ymxkr6g0g" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_hUSxd3D3EfCL_Ymxkr6g0g" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_hUSxeHD3EfCL_Ymxkr6g0g" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_hUSxeXD3EfCL_Ymxkr6g0g" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_hUSxenD3EfCL_Ymxkr6g0g" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_hUSxe3D3EfCL_Ymxkr6g0g" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_hUSxfHD3EfCL_Ymxkr6g0g" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_hUTYgHD3EfCL_Ymxkr6g0g" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_hUTYgXD3EfCL_Ymxkr6g0g" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_hUSxcXD3EfCL_Ymxkr6g0g"/>
+    <element xmi:type="uml:Association" href="Mahasiswa.uml#_hUQVMHD3EfCL_Ymxkr6g0g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_hUSxcnD3EfCL_Ymxkr6g0g" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_lrNuYHD3EfCL_Ymxkr6g0g" type="Association_Edge">
+    <children xmi:type="notation:DecorationNode" xmi:id="_lrNuY3D3EfCL_Ymxkr6g0g" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_lrNuZHD3EfCL_Ymxkr6g0g" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_lrOVcHD3EfCL_Ymxkr6g0g" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_lrOVcXD3EfCL_Ymxkr6g0g" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_lrOVcnD3EfCL_Ymxkr6g0g" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_lrOVc3D3EfCL_Ymxkr6g0g" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_lrOVdHD3EfCL_Ymxkr6g0g" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_lrOVdXD3EfCL_Ymxkr6g0g" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_lrOVdnD3EfCL_Ymxkr6g0g" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_lrOVd3D3EfCL_Ymxkr6g0g" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_lrOVeHD3EfCL_Ymxkr6g0g" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_lrOVeXD3EfCL_Ymxkr6g0g" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_lrNuYXD3EfCL_Ymxkr6g0g"/>
+    <element xmi:type="uml:Association" href="Mahasiswa.uml#_hUQVMHD3EfCL_Ymxkr6g0g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_lrNuYnD3EfCL_Ymxkr6g0g" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ySQHYHD3EfCL_Ymxkr6g0g" type="Association_Edge">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ySQHY3D3EfCL_Ymxkr6g0g" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ySQHZHD3EfCL_Ymxkr6g0g" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ySQHZXD3EfCL_Ymxkr6g0g" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ySQHZnD3EfCL_Ymxkr6g0g" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ySQHZ3D3EfCL_Ymxkr6g0g" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ySQHaHD3EfCL_Ymxkr6g0g" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ySQHaXD3EfCL_Ymxkr6g0g" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ySQHanD3EfCL_Ymxkr6g0g" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ySQHa3D3EfCL_Ymxkr6g0g" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ySQHbHD3EfCL_Ymxkr6g0g" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ySQHbXD3EfCL_Ymxkr6g0g" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ySQHbnD3EfCL_Ymxkr6g0g" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ySQHYXD3EfCL_Ymxkr6g0g"/>
+    <element xmi:type="uml:Association" href="Mahasiswa.uml#_ySNEEHD3EfCL_Ymxkr6g0g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ySQHYnD3EfCL_Ymxkr6g0g" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_1b5_8HD3EfCL_Ymxkr6g0g" type="Association_Edge">
+    <children xmi:type="notation:DecorationNode" xmi:id="_1b6nAnD3EfCL_Ymxkr6g0g" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_1b6nA3D3EfCL_Ymxkr6g0g" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_1b6nBHD3EfCL_Ymxkr6g0g" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_1b6nBXD3EfCL_Ymxkr6g0g" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_1b6nBnD3EfCL_Ymxkr6g0g" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_1b6nB3D3EfCL_Ymxkr6g0g" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_1b6nCHD3EfCL_Ymxkr6g0g" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_1b6nCXD3EfCL_Ymxkr6g0g" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_1b6nCnD3EfCL_Ymxkr6g0g" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_1b6nC3D3EfCL_Ymxkr6g0g" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_1b6nDHD3EfCL_Ymxkr6g0g" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_1b6nDXD3EfCL_Ymxkr6g0g" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_1b6nAHD3EfCL_Ymxkr6g0g"/>
+    <element xmi:type="uml:Association" href="Mahasiswa.uml#_1b1ugHD3EfCL_Ymxkr6g0g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1b6nAXD3EfCL_Ymxkr6g0g" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+</notation:Diagram>

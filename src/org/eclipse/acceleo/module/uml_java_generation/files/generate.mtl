@@ -4,7 +4,6 @@
 [import org::eclipse::acceleo::module::uml_java_generation::services::uml2services /]
 
 [template public generateElement(aClass : Class)]
-[if (aClass.hasStereotype('Bean'))]
 [file (aClass.name.concat('.java'), false, 'UTF-8')]
   public class [aClass.name.toUpperFirst()/] {
    [for (p: Property | aClass.ownedAttribute) separator('\n')]
@@ -31,5 +30,4 @@
    [/for]
   }
 [/file]
-[/if]
 [/template]

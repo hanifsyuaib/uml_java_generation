@@ -5,4 +5,3 @@
 	= invoke('org.eclipse.acceleo.module.uml_java_generation.services.UML2Services', 
       'hasStereotype(org.eclipse.uml2.uml.Class, java.lang.String)', Sequence{arg0, arg1})
 /]
-

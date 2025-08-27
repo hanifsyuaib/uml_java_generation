@@ -1,11 +1,20 @@
 [comment encoding = UTF-8 /]
 [module umlToBeans('http://www.eclipse.org/uml2/5.0.0/UML')]
 
-[import org::eclipse::acceleo::module::uml_java_generation::files::generate /]
+[import org::eclipse::acceleo::module::uml_java_generation::files::model /]
+[import org::eclipse::acceleo::module::uml_java_generation::files::controller /]
+[import org::eclipse::acceleo::module::uml_java_generation::files::repository /]
+[import org::eclipse::acceleo::module::uml_java_generation::files::service /]
+[import org::eclipse::acceleo::module::uml_java_generation::files::config /]
 
 [template public umlToBeans(aPackage : Package)]
 [comment @main/]
+
   [for (aClass : Class | aPackage.packagedElement->filter(Class))]
-    [aClass.generateElement()/]
+    [aClass.generateModel()/]
+	[aClass.generateRepository()/]
+	[aClass.generateService()/]
+	[aClass.generateController()/]
+    [aClass.generateConfig()/]
   [/for]
 [/template]

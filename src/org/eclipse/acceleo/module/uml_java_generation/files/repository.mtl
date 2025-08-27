@@ -1,0 +1,18 @@
+[comment encoding = UTF-8 /]
+[module repository('http://www.eclipse.org/uml2/5.0.0/UML')]
+
+[template public generateRepository(aClass : Class)]
+[file ('src/main/java/com/example/repository/' + aClass.name + 'Repository.java', false, 'UTF-8')]
+package com.example.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+import com.example.model.[aClass.name/];
+
+@Repository
+public interface [aClass.name/]Repository extends JpaRepository<[aClass.name/], Long> {
+    // Add more here if needed
+}
+[/file]
+
+[/template]

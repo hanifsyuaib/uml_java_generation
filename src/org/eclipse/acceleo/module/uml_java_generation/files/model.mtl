@@ -1,0 +1,30 @@
+[comment encoding = UTF-8 /]
+[module model('http://www.eclipse.org/uml2/5.0.0/UML')]
+
+[template public generateModel(aClass : Class)]
+[file ('src/main/java/com/example/model/' + aClass.name + '.java', false, 'UTF-8')]
+package com.example.demo.model;
+
+import jakarta.persistence.*;
+
+@Entity
+public class [aClass.name/] {
+
+    [for (attr : Property | aClass.ownedAttribute)]
+    private [attr.type.name/] [attr.name/];
+    [/for]
+
+    public [aClass.name/]() {}
+
+    [for (attr : Property | aClass.ownedAttribute)]
+    public [attr.type.name/] get[attr.name.toUpperFirst()/]() {
+        return this.[attr.name/];
+    }
+
+    public void set[attr.name.toUpperFirst()/]([attr.type.name/] [attr.name/]) {
+        this.[attr.name/] = [attr.name/];
+    }
+    [/for]
+}
+[/file]
+[/template]

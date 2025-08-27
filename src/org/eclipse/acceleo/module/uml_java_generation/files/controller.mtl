@@ -1,0 +1,48 @@
+[comment encoding = UTF-8 /]
+[module controller('http://www.eclipse.org/uml2/5.0.0/UML')]
+
+[template public generateController(aClass : Class)]
+[file ('src/main/java/com/example/controller/' + aClass.name + 'Controller.java', false, 'UTF-8')]
+package com.example.controller;
+
+import org.springframework.web.bind.annotation.*;
+import org.springframework.beans.factory.annotation.Autowired;
+import java.util.List;
+import com.example.service.[aClass.name/]Service;
+import com.example.model.[aClass.name/];
+
+@RestController
+@RequestMapping("/api/[aClass.name.toLowerFirst()/]s")
+public class [aClass.name/]Controller {
+
+    @Autowired
+    private [aClass.name/]Service [aClass.name.toLowerFirst()/]Service;
+
+    @PostMapping
+    public [aClass.name/] create(@RequestBody [aClass.name/] entity) {
+        return [aClass.name.toLowerFirst()/]Service.create(entity);
+    }
+
+    @GetMapping
+    public List<[aClass.name/]> getAll() {
+        return [aClass.name.toLowerFirst()/]Service.findAll();
+    }
+
+    @GetMapping("/{id}")
+    public [aClass.name/] getById(@PathVariable Long id) {
+        return [aClass.name.toLowerFirst()/]Service.findById(id);
+    }
+
+    @PutMapping("/{id}")
+    public [aClass.name/] update(@PathVariable Long id, @RequestBody [aClass.name/] entity) {
+        return [aClass.name.toLowerFirst()/]Service.update(id, entity);
+    }
+
+    @DeleteMapping("/{id}")
+    public void delete(@PathVariable Long id) {
+        [aClass.name.toLowerFirst()/]Service.delete(id);
+    }
+}
+[/file]
+
+[/template]

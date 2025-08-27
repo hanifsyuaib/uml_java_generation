@@ -18,7 +18,8 @@ Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.acceleo.profiler;bundle-version="3.3.0",
  org.eclipse.acceleo.engine;bundle-version="3.3.0",
  com.google.guava
-Bundle-RequiredExecutionEnvironment: jdk-23
+Bundle-RequiredExecutionEnvironment: JavaSE-17
 Bundle-ActivationPolicy: lazy
 Eclipse-LazyStart: true
-Export-Package: org.eclipse.acceleo.module.uml_java_generation.main
+Export-Package: org.eclipse.acceleo.module.uml_java_generation.main,
+ org.eclipse.acceleo.module.uml_java_generation.services

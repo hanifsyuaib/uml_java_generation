@@ -21,7 +21,7 @@ public class Activator extends Plugin {
     /**
      * The plug-in ID.
      */
-    public static final String PLUGIN_ID = "org.eclipse.acceleo.module.uml-java-generation";
+    public static final String PLUGIN_ID = "org.eclipse.acceleo.module.uml_java_generation";
 
     /**
      * The shared instance.

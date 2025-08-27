@@ -1,0 +1,73 @@
+[comment encoding = UTF-8 /]
+[module service('http://www.eclipse.org/uml2/5.0.0/UML')]
+
+[template public generateService(aClass : Class)]
+[file ('src/main/java/com/example/service/' + aClass.name + 'Service.java', false, 'UTF-8')]
+package com.example.service;
+
+import java.util.List;
+import com.example.model.[aClass.name/];
+
+public interface [aClass.name/]Service {
+
+    [aClass.name/] create([aClass.name/] entity);
+
+    List<[aClass.name/]> findAll();
+
+    [aClass.name/] findById(Long id);
+
+    [aClass.name/] update(Long id, [aClass.name/] entity);
+
+    void delete(Long id);
+}
+[/file]
+
+[file ('src/main/java/com/example/service/impl/' + aClass.name + 'ServiceImpl.java', false, 'UTF-8')]
+package com.example.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import java.util.List;
+
+import com.example.service.[aClass.name/]Service;
+import com.example.model.[aClass.name/];
+import com.example.repository.[aClass.name/]Repository;
+
+@Service
+public class [aClass.name/]ServiceImpl implements [aClass.name/]Service {
+
+    @Autowired
+    private [aClass.name/]Repository [aClass.name.toLowerFirst()/]Repository;
+
+    @Override
+    public [aClass.name/] create([aClass.name/] entity) {
+        return [aClass.name.toLowerFirst()/]Repository.save(entity);
+    }
+
+    @Override
+    public List<[aClass.name/]> findAll() {
+        return [aClass.name.toLowerFirst()/]Repository.findAll();
+    }
+
+    @Override
+    public [aClass.name/] findById(Long id) {
+        return [aClass.name.toLowerFirst()/]Repository.findById(id).orElse(null);
+    }
+
+    @Override
+    public [aClass.name/] update(Long id, [aClass.name/] entity) {
+        if ([aClass.name.toLowerFirst()/]Repository.existsById(id)) {
+            entity.setId(id);
+            return [aClass.name.toLowerFirst()/]Repository.save(entity);
+        }
+        return null;
+    }
+
+    @Override
+    public void delete(Long id) {
+        [aClass.name.toLowerFirst()/]Repository.deleteById(id);
+    }
+}
+[/file]
+
+[/template]
